@@ -53,3 +53,38 @@ align-items: center;
     color: white;
     margin-top: 30px;
 }
+.section{
+    background: url(/imagenes/Group\ 8\ 1.png) no-repeat center/cover;
+    padding: 105px 160px;
+}
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #8e32c6 ;
+    padding:  25px 50px ;
+    column-gap: 125px;
+}
+.section-total{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.section-item{
+    position: relative;
+}
+.section-item:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 346px ;
+    height: 2px;
+    transform: rotate(-90deg);
+    top: 150px;
+    right: -250px;
+}
+.section-item:first-child::after{
+        top :180px ;
+}
+
