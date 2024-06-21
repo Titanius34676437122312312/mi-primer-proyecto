@@ -87,4 +87,16 @@ align-items: center;
 .section-item:first-child::after{
         top :180px ;
 }
+.reviews-title{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+.reviews{
+    background: url(/imagenes/) no-repeat center/cover;
+}
+
+
+
+
 
