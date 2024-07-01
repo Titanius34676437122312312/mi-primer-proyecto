@@ -52,6 +52,9 @@ align-items: center;
     padding: 16px 60px;
     color: white;
     margin-top: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 24px;
 }
 .section{
     background: url(/imagenes/Group\ 8\ 1.png) no-repeat center/cover;
@@ -122,10 +125,30 @@ align-items: center;
     justify-content: center;
     row-gap: 20px;
 }
+.Order input{
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 26px;
+    border-color:transparent;
+}
 .email{
     width: 690px;
     margin: 0 auto;
-
+    
+}
+.Title{
+    position: relative;
+    z-index: 6;
+}
+.Title::after{
+    top: 90px;
+    right: 400px;
+    content: 'Confirm';
+    color: #959595;
+    font-size: 26px;
+    width: 100px;
+    height:100px;
+    position: absolute;
 }
 .Country{
     width: 590px;
@@ -150,6 +173,36 @@ align-items: center;
     margin: 0 auto;
     background :#8E32C6 ;
     color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.footer{
+    background: #021635;
+}
+.footer p{
+    color: white;
+    font-size: 24px;
+}
+.footer-answer-right p{
+
+    text-decoration: underline;
+}
+.footer-container{
+    padding: 45px 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cr{
+    color: white;
+    font-size: 25px;
+    text-decoration: none!important;
+    text-align: right;
+}
+.footer-question-left .ColoRawe-two,.footer-question-left .usa{
+    font-size: 18px;
 }
 
 
